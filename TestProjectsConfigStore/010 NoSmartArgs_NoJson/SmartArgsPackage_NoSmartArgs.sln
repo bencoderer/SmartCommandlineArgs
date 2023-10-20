@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_DotNetFramework", "CS_DotNetFramework\CS_DotNetFramework.csproj", "{7894FB32-382D-43F2-98D6-BE7ADDADD6E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{4FCE1CDF-5361-443A-BBFA-9061139B5C38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartArgsTester", "..\..\TestProjects\SmartArgsTester\SmartArgsTester.csproj", "{EE16A903-B7C5-4141-9E24-F9BC33B0A869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7894FB32-382D-43F2-98D6-BE7ADDADD6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7894FB32-382D-43F2-98D6-BE7ADDADD6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7894FB32-382D-43F2-98D6-BE7ADDADD6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7894FB32-382D-43F2-98D6-BE7ADDADD6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE16A903-B7C5-4141-9E24-F9BC33B0A869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE16A903-B7C5-4141-9E24-F9BC33B0A869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE16A903-B7C5-4141-9E24-F9BC33B0A869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE16A903-B7C5-4141-9E24-F9BC33B0A869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE16A903-B7C5-4141-9E24-F9BC33B0A869} = {4FCE1CDF-5361-443A-BBFA-9061139B5C38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF14CDF0-EF51-448B-918C-47CD369568DF}
+	EndGlobalSection
+EndGlobal
