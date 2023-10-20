@@ -3,7 +3,15 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>VB_DotNetCore</RootNamespace>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartArgsTester\SmartArgsTester.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
 
 </Project>

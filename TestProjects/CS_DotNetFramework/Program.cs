@@ -10,12 +10,7 @@ namespace CS_DotNetFramework
     {
         static void Main(string[] args)
         {
-            // Display command line arguments
-            Console.WriteLine("Command Line Arguments:");
-            foreach (var arg in args)
-            {
-                Console.WriteLine(arg);
-            }
+            (new SmartArgsPackage.Tester.SmartArgsTester() { WaitForKeyPressOnCompletion = true }).Run(args);
         }
     }
 }

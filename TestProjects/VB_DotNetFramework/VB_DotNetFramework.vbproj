@@ -107,5 +107,11 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartArgsTester\SmartArgsTester.csproj">
+      <Project>{a608b776-ee59-463b-a3bc-1b243368184b}</Project>
+      <Name>SmartArgsTester</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

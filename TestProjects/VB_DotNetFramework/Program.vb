@@ -1,9 +1,6 @@
 ﻿Module Program
     Sub Main(args As String())
-        ' Display command line arguments
-        Console.WriteLine("Command Line Arguments:")
-        For Each arg As String In args
-            Console.WriteLine(arg)
-        Next
+        Dim tester = New SmartArgsPackage.Tester.SmartArgsTester() With {.WaitForKeyPressOnCompletion = True}
+        tester.Run(args)
     End Sub
 End Module

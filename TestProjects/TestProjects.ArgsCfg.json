@@ -1,0 +1,6 @@
+{
+  "ManageCommandLineArgs": true,
+  "ManageEnvironmentVars": true,
+  "ManageWorkingDirectories": true,
+  "VcsSupportEnabled": true
+}

@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "CS_DotNetCore": {
+      "commandName": "Project",
+      "commandLineArgs": "-arg1 arg2",
+      "workingDirectory": "c:\\",
+      "environmentVariables": {
+        "SCA_ARG": "1",
+        "SCA_ARG2": "3",
+        "SCA_PROJECT": "cscore"
+      }
+    }
+  }
+}
